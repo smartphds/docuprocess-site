@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /sign-in
+Disallow: /sign-up
+Disallow: /my-files
+Disallow: /api/
+
+Sitemap: https://docuprocess.ai/sitemap.xml

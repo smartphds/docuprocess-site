@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="DocuProcess">
+  <defs>
+    <linearGradient id="dpBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="dpHi" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="55%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#dpBg)"/>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#dpHi)"/>
+
+  <!-- Sheet -->
+  <path
+    d="M18 12 H38 L48 22 V48 a4 4 0 0 1 -4 4 H18 a4 4 0 0 1 -4 -4 V16 a4 4 0 0 1 4 -4 z"
+    fill="#ffffff"/>
+
+  <!-- Folded corner -->
+  <path
+    d="M38 12 V18 a4 4 0 0 0 4 4 H48"
+    fill="none"
+    stroke="#c7d2fe" stroke-width="2.2"
+    stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Transform arrow (process) — centered in sheet content area -->
+  <path
+    d="M21 33 H35"
+    fill="none"
+    stroke="#6366f1" stroke-width="4"
+    stroke-linecap="round"/>
+  <path
+    d="M30 27 L36 33 L30 39"
+    fill="none"
+    stroke="#6366f1" stroke-width="4"
+    stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
