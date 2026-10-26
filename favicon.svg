@@ -1,19 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <defs>
-    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#6366f1"/>
-      <stop offset="100%" stop-color="#8b5cf6"/>
-    </linearGradient>
-  </defs>
-  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#fbg)"/>
-
-  <path
-    d="M18 12 H38 L48 22 V48 a4 4 0 0 1 -4 4 H18 a4 4 0 0 1 -4 -4 V16 a4 4 0 0 1 4 -4 z"
-    fill="#ffffff"/>
-  <path
-    d="M38 12 V18 a4 4 0 0 0 4 4 H48"
-    fill="none" stroke="#c7d2fe" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
-
-  <path d="M21 33 H35" fill="none" stroke="#6366f1" stroke-width="4.5" stroke-linecap="round"/>
-  <path d="M30 27 L36 33 L30 39" fill="none" stroke="#6366f1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="DocuProcess">
+  <!-- Shield (privacy) holding a document; simplified to two lines for small sizes -->
+  <path d="M32 4 L55 12.5 V30 C55 44.5 45.5 54.5 32 60 C18.5 54.5 9 44.5 9 30 V12.5 Z" fill="#4F46E5"/>
+  <path d="M22 26 H42" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+  <path d="M22 38 H36" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
 </svg>
